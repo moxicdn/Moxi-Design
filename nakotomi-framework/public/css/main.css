@@ -6,7 +6,6 @@
   vertical-align: middle;
   touch-action: manipulation;
   cursor: pointer;
-  background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
@@ -67,3 +66,6 @@
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925; }
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif; }
