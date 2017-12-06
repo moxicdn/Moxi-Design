@@ -1,6 +1,11 @@
-$badass: #336699;
+// Import Variables
+// --------------------------------------------------
+@import "variables";
 
-body {
-  margin: 0;
-  background-color: $badass;
-}
+// Import Mixins
+// --------------------------------------------------
+@import "components/mixins/buttons";
+
+// Import Components
+// --------------------------------------------------
+@import "components/buttons";
