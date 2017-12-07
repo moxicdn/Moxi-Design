@@ -1,3 +1,37 @@
+h1 {
+  font-size: 50px; }
+
+h2 {
+  font-size: 42px; }
+
+h3 {
+  font-size: 36px; }
+
+h4 {
+  font-size: 30px; }
+
+h5 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 15px; }
+
+b, strong {
+  font-weight: bold; }
+
+code {
+  padding: 11px 16px;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 3px; }
+
+pre > code {
+  display: block;
+  padding: 11px 16px;
+  white-space: pre; }
+
 .md-btn {
   display: inline-flex;
   align-items: center;
@@ -64,4 +98,5 @@
     margin-top: -5px; } }
 
 body {
-  font-family: Helvetica, Verdana, Arial, sans-serif; }
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 16px; }

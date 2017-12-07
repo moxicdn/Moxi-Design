@@ -1,0 +1,42 @@
+h1 {
+  font-size: $font-h1;
+}
+
+h2 {
+  font-size: $font-h2;
+}
+
+h3 {
+  font-size: $font-h3;
+}
+
+h4 {
+  font-size: $font-h4;
+}
+
+h5 {
+  font-size: $font-h5;
+}
+
+h6 {
+  font-size: $font-h6;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+code {
+  padding: $padding-base-vertical $padding-base-horizontal;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: $btn-border-radius-base;
+}
+
+pre > code {
+  display: block;
+  padding: $padding-base-vertical $padding-base-horizontal;
+  white-space: pre;
+}
