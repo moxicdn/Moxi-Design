@@ -13,11 +13,12 @@
   border: 1px solid transparent;
   white-space: nowrap;
   text-transform: uppercase;
+  max-height: 12px;
   @include button-size($padding-base-vertical, $padding-base-horizontal, $btn-font-size-base, $line-height-base, $btn-border-radius-base);
 
   i {
-    font-size: 22px;
-    margin-right: 8px;
+    font-size: $btn-icon-font-size-base;
+    margin-right: $btn-icon-padding;
   }
 
 }
@@ -38,6 +39,25 @@
 }
 
 .md-btn-icon {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: $btn-icon-padding;
+  padding-right: $btn-icon-padding;
+  max-height: 9px;
+}
+
+.md-btn-dense {
+  padding-top: $padding-dense-vertical;
+  padding-bottom: $padding-dense-vertical;
+
+  i {
+    font-size: $btn-icon-font-size-dense;
+  }
+}
+
+// IE 11 Hacks here
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .md-btn {
+    i {
+      margin-top: -5px;
+    }
+  }
 }
