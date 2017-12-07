@@ -1,71 +1,45 @@
 .md-btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 400;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
   cursor: pointer;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857;
-  border-radius: 4px; }
+  text-transform: uppercase;
+  padding: 9px 16px;
+  font-size: 12px;
+  line-height: 100%;
+  border-radius: 3px; }
+
+.md-btn {
+  color: #212E35;
+  background-color: #fff;
+  border-color: transparent; }
+  .md-btn:hover {
+    color: #212E35;
+    background-color: #e6e6e6;
+    border-color: transparent; }
 
 .md-btn-default {
-  color: #333;
+  color: #212E35;
   background-color: #fff;
-  border-color: #ccc; }
+  border-color: #D9D9D9; }
   .md-btn-default:hover {
-    color: #333;
+    color: #212E35;
     background-color: #e6e6e6;
-    border-color: #adadad; }
+    border-color: #bababa; }
 
 .md-btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4; }
+  background-color: #499F46;
+  border-color: transparent; }
   .md-btn-primary:hover {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74; }
-
-.md-btn-success {
-  color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c; }
-  .md-btn-success:hover {
-    color: #fff;
-    background-color: #449d44;
-    border-color: #398439; }
-
-.md-btn-info {
-  color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da; }
-  .md-btn-info:hover {
-    color: #fff;
-    background-color: #31b0d5;
-    border-color: #269abc; }
-
-.md-btn-warning {
-  color: #fff;
-  background-color: #f0ad4e;
-  border-color: #eea236; }
-  .md-btn-warning:hover {
-    color: #fff;
-    background-color: #ec971f;
-    border-color: #d58512; }
-
-.md-btn-danger {
-  color: #fff;
-  background-color: #d9534f;
-  border-color: #d43f3a; }
-  .md-btn-danger:hover {
-    color: #fff;
-    background-color: #c9302c;
-    border-color: #ac2925; }
+    background-color: #397c36;
+    border-color: transparent; }
 
 body {
   font-family: Helvetica, Verdana, Arial, sans-serif; }
