@@ -57,6 +57,11 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .md-btn {
     i {
+      margin-top: -7px;
+    }
+  }
+  .md-btn-dense {
+    i {
       margin-top: -5px;
     }
   }
