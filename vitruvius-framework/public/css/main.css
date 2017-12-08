@@ -6,10 +6,12 @@ body {
 #welcome {
   position: relative;
   height: 100vh;
+  background-color: #fff;
   background-image: url('../images/arch-drawing.jpg');
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100%;
+  z-index: 5;
 }
 
 #vitruvius-tagline {
@@ -31,10 +33,11 @@ body {
 
 #nav {
   position: absolute;
-  top: calc(100vh);
   left: 0;
-  min-height: 100%;
+  top: calc(100vh);
+  height: 100%;
   background: #f5f5f5;
+  z-index: 1;
 }
 
 #nav ul {
