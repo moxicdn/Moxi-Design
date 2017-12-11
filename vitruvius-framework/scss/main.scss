@@ -11,6 +11,9 @@
 @import "components/typography";
 @import "components/buttons";
 
+// Import Muli Font from Google
+// --------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
 
 body {
   font-family: $font-family;
