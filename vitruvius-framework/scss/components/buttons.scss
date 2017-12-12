@@ -53,6 +53,10 @@
   }
 }
 
+.md-btn-disabled {
+  opacity: $btn-disabled;
+}
+
 // IE 11 Hacks here
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .md-btn {
