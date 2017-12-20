@@ -14,6 +14,10 @@ $font-h6:                               15px !default;
 $brand-primary:                         rgba(80,182,76,1.0) !default; // Moxi Green
 $brand-secondary:                       rgba(227,227,227,1.0) !default; // Grey
 
+//= Other Colors
+$color-destructive:                     rgba(244,67,54,1.0) !default // Destructive = red
+$color-destructive-hover:               rgba(244,67,54,.7) !default
+
 //= Buttons
 $btn-font-weight:                       400 !default; // Normal
 $btn-font-size-base:                    16px !default;

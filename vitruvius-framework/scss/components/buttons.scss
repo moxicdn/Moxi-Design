@@ -44,6 +44,17 @@
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
 }
 
+.md-btn-destructive {
+  border-color: $color-destructive;
+  color: $color-destructive;
+}
+
+.md-btn-destructive:hover {
+  background-color: #FFF;
+  border-color: $color-destructive-hover;
+  color: $color-destructive-hover;
+}
+
 .md-btn-icon {
   padding-left: $btn-icon-padding;
   padding-right: $btn-icon-padding;
