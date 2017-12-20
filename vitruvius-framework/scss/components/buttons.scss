@@ -30,10 +30,7 @@
 }
 
 .md-btn-flat {
-  background-color: $btn-bg-flat;
-}
-.md-btn-flat:hover {
-  background-color: $btn-bg-flat-hover;
+  @include button-flat-variant($btn-bg-flat, $btn-bg-flat-hover)
 }
 
 .md-btn-default {
@@ -45,14 +42,7 @@
 }
 
 .md-btn-destructive {
-  border-color: $color-destructive;
-  color: $color-destructive;
-}
-
-.md-btn-destructive:hover {
-  background-color: #FFF;
-  border-color: $color-destructive-hover;
-  color: $color-destructive-hover;
+  @include button-hard-coded-hover($color-destructive, $color-destructive, '#fff', $color-destructive-hover, $color-destructive-hover)
 }
 
 .md-btn-icon {
@@ -73,6 +63,10 @@
 
 .md-btn-disabled {
   opacity: $btn-disabled;
+}
+
+.md-btn-disabled:hover {
+  cursor: default !important;
 }
 
 .md-btn-full {
