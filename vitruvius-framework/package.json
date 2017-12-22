@@ -1,0 +1,14 @@
+{
+  "name": "vitruvius-framework",
+  "version": "0.0.1",
+  "description": "Moxi Works Design Framework",
+  "main": "main.js",
+  "scripts": {
+    "serve": "parcel index.html"
+  },
+  "author": "JP Given & Dustin Martinka",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
