@@ -1,3 +1,9 @@
+# Prereq
+
+install from terminal: `npm install -g parcel-bundler`
+
+Make sure you're running on Node8+
+
 # Set Up
 
 1. Clone repository locally
