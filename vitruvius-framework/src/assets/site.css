@@ -7,7 +7,7 @@ body {
   position: relative;
   height: 100vh;
   background-color: #fff;
-  background-image: url('../images/arch-drawing.jpg');
+  background-image: url('./arch-drawing.jpg');
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100%;
