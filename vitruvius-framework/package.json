@@ -1,21 +1,14 @@
 {
   "name": "vitruvius-framework",
   "version": "0.0.1",
-  "description": "Moxi-Works Design Framework",
+  "description": "Moxi Works Design Framework",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/main.scss public/vitruvius/css/vitruvius.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "run-http-server": "http-server -p 5001 ./public &",
-    "serve": "npm run run-http-server && npm run build-css && npm run watch-css"
+    "serve": "parcel index.html"
   },
-  "author": "JP Given <jgiven@gmail.com>",
+  "author": "JP Given & Dustin Martinka",
   "license": "MIT",
-  "devDependencies": {
-    "forever": "^0.15.3",
-    "http-server": "^0.10.0",
-    "node-sass": "^4.7.2",
-    "nodemon": "^1.12.5"
+  "dependencies": {
+    "node-sass": "^4.7.2"
   }
 }
