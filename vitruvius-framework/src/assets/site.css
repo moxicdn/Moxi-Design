@@ -66,3 +66,13 @@ body {
   padding: 16px;
   color: #FFF;
 }
+
+/* Color swatches */
+.color-swatch {
+  padding: 16px;
+  color: #FFF;
+  margin-bottom: 2px;
+}
+.color-swatch-light {
+  color:#212E35;
+}

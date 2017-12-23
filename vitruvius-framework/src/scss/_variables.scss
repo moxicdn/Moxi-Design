@@ -13,24 +13,21 @@ $font-h6:                               15px !default;
 //= Primary Brand Colors
 $color-moxi-green:                      rgba(80,182,76,1.0) !default; // Moxi Green was $brand-primary
 $color-moxi-blue:                       rgba(80,146,211,1.0)  !default; // Moxi Blue
-$brand-primary: red;
-                    //need to change this naming
-$brand-secondary:                       rgba(227,227,227,1.0) !default; // Grey
                     //
 //= Neutrals
 $color-neutral100:                      rgba(33,46,53,1.0)    !default; // Neutral100
 $color-neutral90:                       rgba(55,66,73,1.0)    !default; // Neutral90
-$color-nuetral80:                       rgba(77,88,93,1.0)    !default; // Neutral80
-$color-nuetral70:                       rgba(99,108,113,1.0)  !default; // Neutral70
-$color-nuetral60:                       rgba(122,130,134,1.0) !default; // Neutral60
-$color-nuetral50:                       rgba(144,150,154,1.0) !default; // Neutral50
-$color-nuetral40:                       rgba(166,171,174,1.0) !default; // Neutral40
-$color-nuetral30:                       rgba(188,192,194,1.0) !default; // Neutral30
-$color-nuetral20:                       rgba(211,213,215,1.0) !default; // Neutral20
-$color-nuetral15:                       rgba(232,234,234,1.0) !default; // Neutral15
-$color-nuetral10:                       rgba(242,243,243,1.0) !default; // Neutral10
-$color-nuetral05:                       rgba(248,248,248,1.0) !default; // Neutral05
-$color-nuetral00:                       rgba(255,255,255,1.0) !default; // Neutral00
+$color-neutral80:                       rgba(77,88,93,1.0)    !default; // Neutral80
+$color-neutral70:                       rgba(99,108,113,1.0)  !default; // Neutral70
+$color-neutral60:                       rgba(122,130,134,1.0) !default; // Neutral60
+$color-neutral50:                       rgba(144,150,154,1.0) !default; // Neutral50
+$color-neutral40:                       rgba(166,171,174,1.0) !default; // Neutral40
+$color-neutral30:                       rgba(188,192,194,1.0) !default; // Neutral30
+$color-neutral20:                       rgba(211,213,215,1.0) !default; // Neutral20
+$color-neutral15:                       rgba(232,234,234,1.0) !default; // Neutral15
+$color-neutral10:                       rgba(242,243,243,1.0) !default; // Neutral10
+$color-neutral05:                       rgba(248,248,248,1.0) !default; // Neutral05
+$color-neutral00:                       rgba(255,255,255,1.0) !default; // Neutral00
 
 //= Alternatives
 $color-violet100:                       rgba(201,103,242,1.0) !default; // Heliotrope
@@ -66,7 +63,7 @@ $btn-default-bg-hover:                  #E3E3E3 !default;
 $btn-default-border:                    #D9D9D9 !default;
 
 $btn-primary-color:                     #fff !default;
-$btn-primary-bg:                        $brand-primary !default;
+$btn-primary-bg:                        $color-moxi-green !default;
 $btn-primary-bg-hover:                  #499F46 !default;
 $btn-primary-border:                    transparent !default;
 
