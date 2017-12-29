@@ -11,9 +11,16 @@ $font-h5:                               24px !default;
 $font-h6:                               15px !default;
 
 //= Primary Brand Colors
-$color-moxi-green:                      rgba(80,182,76,1.0) !default; // Moxi Green was $brand-primary
+$color-moxi-green:                      rgba(80,182,76,1.0)   !default; // Moxi Green
+$color-mg-dark:                         rgba(66,163,62,1.0)   !default; // Moxi Green - Dark
+$color-mg-light:                        rgba(132,203,129,1.0) !default; // Moxi Green - Light
+$color-mg-lighter:                      rgba(167,218,165,1.0) !default; // Moxi Green - Lighter
+
 $color-moxi-blue:                       rgba(80,146,211,1.0)  !default; // Moxi Blue
-                    //
+$color-mb-dark:                         rgba(55,124,191,1.0)  !default; // Moxi Blue - Dark
+$color-mb-light:                        rgba(132,178,224,1.0) !default; // Moxi Blue - Light
+$color-mb-lighter:                      rgba(167,200,233,1.0) !default; // Moxi Blue - Lighter
+
 //= Neutrals
 $color-neutral100:                      rgba(33,46,53,1.0)    !default; // Neutral100
 $color-neutral90:                       rgba(55,66,73,1.0)    !default; // Neutral90
