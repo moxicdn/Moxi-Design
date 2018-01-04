@@ -1,3 +1,27 @@
+.display-large {
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 900;
+}
+.display-medium {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.display-regular {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.display-small {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: $font-h1;
 }
