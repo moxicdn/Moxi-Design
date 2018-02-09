@@ -1,25 +1,71 @@
-h1 {
-  font-size: $font-h1;
+/* Small devices - This is the default*/
+.display-large {
+  font-size: 26px;
+  line-height: $line-height-l;
+  font-weight: $font-weight-superheavy;
 }
-
-h2 {
-  font-size: $font-h2;
+.display-medium {
+  font-size: 18px;
+  line-height: $line-height-m;
+  font-weight: $font-weight-superheavy;
+  text-transform: uppercase;
 }
-
-h3 {
-  font-size: $font-h3;
+.display-regular {
+  font-size: 16px;
+  line-height: $line-height-s;
+  font-weight: $font-weight-regular;
+  text-transform: uppercase;
 }
-
-h4 {
-  font-size: $font-h4;
+.display-small {
+  font-size: 16px;
+  line-height: $line-height-s;
+  font-weight: $font-weight-heavy;
+  text-transform: uppercase;
 }
-
-h5 {
-  font-size: $font-h5;
+.body-regular {
+  font-size: 14px;
+  line-height: $line-height-s;
+  font-weight: $font-weight-regular;
 }
-
-h6 {
-  font-size: $font-h6;
+.body-small {
+  font-size: 12px;
+  line-height: $line-height-xs;
+  font-weight: $font-weight-regular;
+}
+.heading {
+  font-size: 14px;
+  font-weight: $font-weight-heavy;
+  line-height: $line-height-s;
+}
+.subheading {
+  font-size: 13px;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-s;
+}
+/* All other devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .display-large {
+    font-size: 40px;
+    line-height: $line-height-xl;
+  }
+  .display-medium {
+    font-size: 24px;
+    line-height: $line-height-l;
+  }
+  .display-regular {
+    font-size: 18px;
+    line-height: $line-height-m;
+    text-transform: uppercase;
+  }
+  .body-regular {
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 16px;
+  }
+  .subheading {
+    font-size: 14px;
+  }
 }
 
 b, strong {
