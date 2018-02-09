@@ -3,12 +3,23 @@ $font-family:                           Muli, 'Helvetica Neue', Helvetica, Verda
 $font-size-base:                        16px !default;
 $font-base-color:                       #222 !default;
 
-$font-h1:                               50px !default;
-$font-h2:                               42px !default;
-$font-h3:                               36px !default;
-$font-h4:                               30px !default;
-$font-h5:                               24px !default;
-$font-h6:                               15px !default;
+$font-weight-superheavy:                900 !default;
+$font-weight-heavy:                     700 !default;
+$font-weight-regular:                   400 !default;
+
+//$font-h1:                               50px !default;
+//$font-h2:                               42px !default;
+//$font-h3:                               36px !default;
+//$font-h4:                               30px !default;
+//$font-h5:                               24px !default;
+//$font-h6:                               15px !default;
+
+$line-height-xl:                        64px !default;
+$line-height-l:                         40px !default;
+$line-height-m:                         32px !default;
+$line-height-s:                         24px !default;
+$line-height-xs:                        16px !default;
+
 
 //= Primary Brand Colors
 $color-moxi-green:                      rgba(80,182,76,1.0)   !default; // Moxi Green
