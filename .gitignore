@@ -44,4 +44,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-vitruvius-framework/.cache
+vitruvius-framework/.cache/*
