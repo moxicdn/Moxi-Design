@@ -30,6 +30,7 @@
           <li><a href="#typography">Typography</a></li>
           <li><a href="#buttons">Buttons</a></li>
           <li><a href="#colors">Colors</a></li>
+          <li><a href="#menus">Menus</a></li>
         </ul>
       </div>
     </section>
@@ -146,6 +147,10 @@
         <div class="color-swatch color-destructive">Destructive</div>
         <div class="color-swatch color-destructive-lt">Destructive light</div>
 
+      </section>
+      <section id="menus">
+        <h3 class="fw-header-h3">Menus</h3>
+        <img src="../vitruvius-framework/src/assets/images/dropdown-collection.png" />
       </section>
     </section>
 
