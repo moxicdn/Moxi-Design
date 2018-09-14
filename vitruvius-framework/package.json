@@ -8,7 +8,8 @@
   },
   "author": "JP Given & Dustin Martinka",
   "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.7.2"
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.3"
   }
 }
