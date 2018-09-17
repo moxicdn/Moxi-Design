@@ -15,8 +15,8 @@ Make sure you're running on Node8+
 
 Vitruvious is loaded into a jsdelivr CDN for consumption. Here is a samle URL for the first release (and only release for right now).
 
-https://cdn.jsdelivr.net/gh/moxicdn/Moxi-Design@0.0.1/vitruvius-framework/vitruvious/vitruvius-framework-0.0.2.js
-https://cdn.jsdelivr.net/gh/moxicdn/Moxi-Design@0.0.1/vitruvius-framework/vitruvious/vitruvius-framework-0.0.2.css
+https://cdn.jsdelivr.net/gh/moxicdn/Moxi-Design@0.0.5/vitruvius-framework/vitruvious/vitruvius-framework-0.0.5.js
+https://cdn.jsdelivr.net/gh/moxicdn/Moxi-Design@0.0.5/vitruvius-framework/vitruvious/vitruvius-framework-0.0.5.css
 
 # How to Create a Proper Build
 
