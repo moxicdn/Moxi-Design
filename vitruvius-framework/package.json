@@ -1,6 +1,6 @@
 {
   "name": "vitruvius-framework",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Moxi Works Design Framework",
   "main": "main.js",
   "scripts": {
